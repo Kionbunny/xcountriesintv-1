@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 async function getCountries() {
   try {
-    const response = await fetch("https://xcountriesapi.onrender.com/all ");
+    const response = await fetch("https://xcountriesapi.onrender.com/all");
     const data = await response.json();
     console.log(data);
     return data;
